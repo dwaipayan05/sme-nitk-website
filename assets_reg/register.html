@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Registration Form Convention 20201</title>
+
+  <!-- Font Icon -->
+  <link rel="stylesheet" href="fonts/material-icon/css/material-design-iconic-font.min.css">
+
+  <!-- Main css -->
+  <link rel="stylesheet" href="css/register_style.css">
+</head>
+
+<body>
+
+  <div class="main">
+
+    <div class="container">
+      <div class="booking-content">
+        <div class="booking-image">
+          <img class="booking-img" src="images/form-img.jpg" alt="NITK Lighthouse">
+        </div>
+        <div class="booking-form">
+          <form id="booking-form" action="https://formspree.io/f/mnqolwgz" method="POST">
+            <h2>Register for SME Convention' 21</h2>
+            <div class="form-group form-input">
+              <input type="text" name="Name" id="Name" value="" required />
+              <label for="Name" class="form-label">Full Name</label>
+            </div>
+            <div class="form-group form-input">
+              <input type="text" name="College" id="College" value="" required />
+              <label for="College" class="form-label">College Name</label>
+            </div>
+            <div class="form-group form-input">
+              <input type="text" name="Branch Name" id="Branch Name" value="" required />
+              <label for="Branch Name" class="form-label">Branch Name</label>
+            </div>
+            <div class="form-group form-input">
+              <input type="number" name="Phone" id="Phone" value="" required />
+              <label for="Phone" class="form-label">Ph.No</label>
+            </div>
+            <div class="form-group">
+              <div class="select-list">
+                <select name="gender" id="gender" required>
+                  <option value="">Gender</option>
+                  <option value="Male">Male</option>
+                  <option value="Female">Female</option>
+                  <option value="Other">Other</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-radio">
+              <label class="label-radio">Number of Events You Want to Participate</label>
+              <div class="radio-item-list">
+                <span class="radio-item">
+                  <input type="radio" name="Number_Of_Events" value="2" id="Number_Of_Events_2" />
+                  <label for="Number_Of_Events_2">1</label>
+                </span>
+                <span class="radio-item active">
+                  <input type="radio" name="Number_Of_Events" value="4" id="Number_Of_Events_4" checked="checked" />
+                  <label for="Number_Of_Events_4">2</label>
+                </span>
+                <span class="radio-item">
+                  <input type="radio" name="Number_Of_Events" value="6" id="Number_Of_Events_6" />
+                  <label for="Number_Of_Events_6">3</label>
+                </span>
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="select-list">
+                <select name="event-track" id="event-list" required>
+                  <option value="">Select Event Track</option>
+                  <option value="Event 1">Event 1</option>
+                  <option value="Event 2">Event 2</option>
+                  <option value="Event 3">Event 3</option>
+                  <option value="Event 4">Event 4</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-submit">
+              <input type="submit" value="Register" class="submit" id="submit" name="submit" />
+              <a class="vertify-booking">Your Participation Will be Confirmed once your Payment is Confirmed</a>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- JS -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
