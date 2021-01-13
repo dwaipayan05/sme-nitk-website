@@ -1,10 +1,3 @@
-/*
-
-Moonlight Template
-
-http://www.templatemo.com/tm-512-moonlight
-
-*/
 
 @keyframes seq-preloader {
   50% {
@@ -319,6 +312,10 @@ nav a:hover::before {
 	color: #232323!important;
 }
 
+.register-btn a:hover {
+	background-color: #fff;
+	color: #232323!important;
+}
 
 .first-content {
 	padding: 100px;
@@ -664,7 +661,7 @@ nav a:hover::before {
 	text-decoration: underline;
 }
 
-.fifth-content .main-btn a {
+.fifth-content .register-btn a {
 	display: inline-block;
 	border: 2px solid #fff;
 	padding: 8px 15px;
@@ -691,6 +688,7 @@ nav a:hover::before {
 	font-size: 13px;
 	color: #fff;
 	margin-bottom: 20px;
+  font-weight: bolder;
 }
 
 .footer .content p a {
