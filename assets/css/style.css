@@ -1326,7 +1326,7 @@ Countdown
 ---------------------------------------------
 */
 
-#countdowntimer {
+#countdown {
   background-size: 100%;
   position: relative;
   font-family: 'Share Tech Mono', monospace;
@@ -1356,12 +1356,10 @@ Countdown
   font-size: 4.5rem;
 }
 
-.message {
-  font-size: 4rem;
-}
+#headline {
+  font-family: 'Share Tech Mono', monospace;
+  color: black;
 
-.countext {
-  padding: 0 0.25rem;
 }
 
 #content {
