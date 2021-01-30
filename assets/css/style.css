@@ -1241,6 +1241,7 @@ accordions
 
 #frequently-question .left-text {
   align-self: center !important;
+  padding-right: 70px;
 }
 
 #frequently-question .left-text h5 {
@@ -1267,7 +1268,7 @@ accordions
 }
 
 #frequently-question .left-text span a {
-  font-weight: 500;
+  font-weight: 600;
 }
 
 @media (max-width: 765px) {
