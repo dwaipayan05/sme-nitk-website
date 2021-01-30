@@ -840,13 +840,13 @@ about
 */
 
 #about {
-  padding: 120px 0px;
+  padding: 20px 0px;
   border-bottom: 1px solid #eee;
 }
 
 @media (max-width: 765px) {
   #about {
-    padding: 20px 0px 120px 0px;
+    padding: 20px 0px 10px 0px;
   }
 }
 
@@ -900,6 +900,14 @@ about
   color: #1e1e1e;
   margin-bottom: 20px;
 }
+
+/*
+---------------------------------------------
+Upcoming Events
+---------------------------------------------
+*/
+
+
 
 /*
 ---------------------------------------------
@@ -1096,6 +1104,8 @@ services
     display: none !important;
   }
 }
+
+
 /*
 ---------------------------------------------
 Carousel Styling
@@ -1220,7 +1230,11 @@ Profile Cards
   color: #1369ce;
   background-color: #f7f5ec;
 }
-
+/*
+---------------------------------------------
+About Events Section
+---------------------------------------------
+*/
 /*
 ---------------------------------------------
 accordions
