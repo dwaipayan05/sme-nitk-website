@@ -1,0 +1,98 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700|Sacramento);
+
+:after, ::before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.elasticstack {
+  position: relative;
+  width: 340px;
+  height: 305px;
+  list-style: none;
+  -webkit-perspective: 1000px;
+  -webkit-perspective-origin: 50% 150%;
+  perspective: 1000px;
+  perspective-origin: 50% 150%;
+  margin: 40px auto;
+  padding: 0;
+}
+
+.no-js .elasticstack {
+  max-width: 1090px;
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+.elasticstack li {
+  position: absolute;
+  z-index: 1;
+  width: 340px;
+  height: 305px;
+  box-shadow: 10px 10px 14px 10px rgba(0, 166, 213, 0.2), 0 0 4px rgba(0, 166, 213, 0.1);
+  opacity: 0;
+  cursor: pointer;
+  -webkit-transform: translate3d(0, 0, -180px);
+  transform: translate3d(0, 0, -180px);
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  border-color: #fff;
+  border-style: solid;
+  border-width: 60px 20px;
+}
+
+.no-js .elasticstack li {
+  position: relative;
+  display: inline-block;
+  opacity: 1;
+  cursor: default;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  margin: 10px;
+}
+
+.elasticstack li h5 {
+  color: #143f51;
+  height: 60px;
+  text-align: right;
+  font-size: 1.4em;
+  font-family: Sacramento, cursive;
+  line-height: 60px;
+  margin: 0 5px;
+}
+
+.elasticstack li.animate {
+  -webkit-transition: all .3s ease-out;
+  transition: all .3s ease-out;
+}
+
+.elasticstack li.move-back {
+  -webkit-transition-timing-function: cubic-bezier(0.175, 0.885, 0.470, 1.515);
+  transition-timing-function: cubic-bezier(0.175, 0.885, 0.470, 1.515);
+}
+
+.elasticstack li {
+  display: block;
+}
+
+/* .elasticstack img {
+  height: 265px;
+  width: 300px;
+} */
+
+legend, button::-moz-focus-inner, input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+a:hover, a:focus, .container>header span a {
+  color: #fff;
+}
+
+@media screen and max-width 25em {
+  .codrops-icon span {
+    display: none;
+  }
+}

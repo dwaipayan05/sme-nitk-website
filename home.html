@@ -16,7 +16,8 @@
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
   <link rel="stylesheet" type="text/css" href="assets/css/owl-carousel.css">
   <link rel="stylesheet" type="text/css" href="assets/css/upcoming.css">
-  <link rel="stylesheet" type="text/css" href="assets/css/swiper.min.css"
+  <link rel="stylesheet" type="text/css" href="assets/css/swiper.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/elasticslider.css">
 
 </head>
 
@@ -122,6 +123,7 @@
   </section>
   <!-- ***** Features Big Item End ***** -->
 
+
   <!-- ***** Features Big Item Start ***** -->
   <section class="section" id="about2">
     </div>
@@ -157,61 +159,25 @@
           </ul>
         </div>
         <div class="right-image col-lg-7 col-md-12 col-sm-12 mobile-bottom-fix-big" data-scroll-reveal="enter right move 30px over 0.6s after 0.4s">
-          <img src="assets/images/sme.png" class="rounded img-fluid d-block mx-auto" alt="App">
+          <ul id="elasticstack" class="elasticstack">
+            <li><img src="assets\images\EL1.jpg" alt="01"/><h5>Gallery</h5></li>
+            <li><div class="overlay"></div><img src="assets\images\EL2.jpg" alt="02"/><h5>Inaugral Meet</h5></li>
+            <li><img src="assets\images\EL3.jpg" alt="03"/><h5>Seminars </h5></li>
+            <li><img src="assets\images\EL4.jpg" alt="04"/><h5>Dr. Harsha's Address</h5></li>
+            <li><img src="assets\images\EL5.jpg" alt="05"/><h5>Dr. Aruna's Address</h5></li>
+            <li><img src="assets\images\EL6.jpg" alt="06"/><h5>SME'20 Team</h5></li>
+          </ul>
+          <script>
+			       new ElastiStack( document.getElementById( 'elasticstack' ) );
+		      </script>
+
+
         </div>
       </div>
     </div>
   </section>
   <!-- ***** Features Big Item End ***** -->
 
-  <!-- ***** Upcoming Events Section Start***** -->
-  <section class="section" id="upcomingbody">
-    <div class="upcoming-heading">
-      <h2>UPCOMING EVENTS</h2>
-    </div>
-    <div class="blog-slider">
-  <div class="blog-slider__wrp swiper-wrapper">
-    <div class="blog-slider__item swiper-slide">
-      <div class="blog-slider__img">
-
-        <img src="https://res.cloudinary.com/muhammederdem/image/upload/v1535759872/kuldar-kalvik-799168-unsplash.jpg" alt="">
-      </div>
-      <div class="blog-slider__content">
-        <span class="blog-slider__code">26 December 2019</span>
-        <div class="blog-slider__title">Lorem Ipsum Dolor</div>
-        <div class="blog-slider__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae voluptate repellendus magni illo ea animi? </div>
-        <a href="#" class="blog-slider__button">READ MORE</a>
-      </div>
-    </div>
-    <div class="blog-slider__item swiper-slide">
-      <div class="blog-slider__img">
-        <img src="https://res.cloudinary.com/muhammederdem/image/upload/v1535759871/jason-leung-798979-unsplash.jpg" alt="">
-      </div>
-      <div class="blog-slider__content">
-        <span class="blog-slider__code">26 December 2019</span>
-        <div class="blog-slider__title">Lorem Ipsum Dolor2</div>
-        <div class="blog-slider__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae voluptate repellendus magni illo ea animi?</div>
-        <a href="#" class="blog-slider__button">READ MORE</a>
-      </div>
-    </div>
-
-    <div class="blog-slider__item swiper-slide">
-      <div class="blog-slider__img">
-        <img src="https://res.cloudinary.com/muhammederdem/image/upload/v1535759871/alessandro-capuzzi-799180-unsplash.jpg" alt="">
-      </div>
-      <div class="blog-slider__content">
-        <span class="blog-slider__code">26 December 2019</span>
-        <div class="blog-slider__title">Lorem Ipsum Dolor</div>
-        <div class="blog-slider__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae voluptate repellendus magni illo ea animi?</div>
-        <a href="#" class="blog-slider__button">READ MORE</a>
-      </div>
-    </div>
-
-  </div>
-  <div class="blog-slider__pagination"></div>
-</div>
-  </section>
-  <!-- ***** Upcoming Events Section End***** -->
 
   <!-- ***** Features Small Start ***** -->
 
@@ -384,7 +350,54 @@
         <!--/Carousel Wrapper-->
   </section>
   <!-- ***** Features Small End ***** -->
+  <!-- ***** Upcoming Events Section Start***** -->
+  <section class="section" id="upcomingbody">
+    <div class="upcoming-heading">
+      <h2>UPCOMING EVENTS</h2>
+    </div>
+    <div class="blog-slider">
+  <div class="blog-slider__wrp swiper-wrapper">
+    <div class="blog-slider__item swiper-slide">
+      <div class="blog-slider__img">
 
+        <img src="https://res.cloudinary.com/muhammederdem/image/upload/v1535759872/kuldar-kalvik-799168-unsplash.jpg" alt="">
+      </div>
+      <div class="blog-slider__content">
+        <span class="blog-slider__code">26 December 2019</span>
+        <div class="blog-slider__title">Lorem Ipsum Dolor</div>
+        <div class="blog-slider__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae voluptate repellendus magni illo ea animi? </div>
+        <a href="#" class="blog-slider__button">READ MORE</a>
+      </div>
+    </div>
+    <div class="blog-slider__item swiper-slide">
+      <div class="blog-slider__img">
+        <img src="https://res.cloudinary.com/muhammederdem/image/upload/v1535759871/jason-leung-798979-unsplash.jpg" alt="">
+      </div>
+      <div class="blog-slider__content">
+        <span class="blog-slider__code">26 December 2019</span>
+        <div class="blog-slider__title">Lorem Ipsum Dolor2</div>
+        <div class="blog-slider__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae voluptate repellendus magni illo ea animi?</div>
+        <a href="#" class="blog-slider__button">READ MORE</a>
+      </div>
+    </div>
+
+    <div class="blog-slider__item swiper-slide">
+      <div class="blog-slider__img">
+        <img src="https://res.cloudinary.com/muhammederdem/image/upload/v1535759871/alessandro-capuzzi-799180-unsplash.jpg" alt="">
+      </div>
+      <div class="blog-slider__content">
+        <span class="blog-slider__code">26 December 2019</span>
+        <div class="blog-slider__title">Lorem Ipsum Dolor</div>
+        <div class="blog-slider__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae voluptate repellendus magni illo ea animi?</div>
+        <a href="#" class="blog-slider__button">READ MORE</a>
+      </div>
+    </div>
+
+  </div>
+  <div class="blog-slider__pagination"></div>
+</div>
+  </section>
+  <!-- ***** Upcoming Events Section End***** -->
 
   <!-- ***** Frequently Question Start ***** -->
   <section class="section" id="frequently-question">
@@ -630,7 +643,8 @@
 
     <!-- Global Init -->
     <script src="assets/js/custom.js"></script>
-    <script src="assets\js\upcoming.js"></script>
+    <script src="assets/js/upcoming.js"></script>
+    <script src="assets/js/elasticslider.js"></script>
 
 </body>
 <footer>
