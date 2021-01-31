@@ -81,7 +81,69 @@
   height: 16px;
 }
 
+/*
+---------------------------------------------
+Countdown
+---------------------------------------------
+*/
 
+#countdown {
+  background-size: 100%;
+  position: relative;
+  font-family: 'Share Tech Mono', monospace;
+  font-weight: bolder;
+  text-align: center;
+  color: #fff;
+  text-shadow: 3px 3px 20px #01B5C7,
+    -2px 1px 30px #01B5C7;
+}
+
+.countcontainer {
+  padding-top: 0px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.countcontainer li {
+  display: inline-block;
+  font-size: 1.0em;
+  list-style-type: none;
+  padding-right: 1em;
+  padding-left: 1em;
+  padding-bottom: 1em;
+  padding-top: 0em;
+  text-transform: uppercase;
+}
+
+.countcontainer li span {
+  display: block;
+  font-size: 2.5rem;
+}
+
+#headline {
+  font-family: 'Share Tech Mono', monospace;
+  color: black;
+
+}
+
+#content {
+  display: none;
+  padding: 1rem;
+}
+@media all and (max-width: 768px) {
+  .countcontainer h1 {
+    font-size: 1.5rem;
+  }
+
+  .countcontainer li {
+    font-size: 1.125rem;
+    padding: .75rem;
+  }
+
+  .countcontainer li span {
+    font-size: 3.375rem;
+  }
+}
 /* MAIN CSS */
 
 @-webkit-keyframes fill {
@@ -271,7 +333,7 @@ nav a:hover::before {
   overflow-y: scroll;
   position: relative;
   width: 70%;
-  height: 80%;
+  height: 71%;
   left: 30%;
   top: 10%;
   bottom: 10%;
@@ -492,6 +554,7 @@ nav a:hover::before {
 
 .third-content .second-section .left-image {
 	margin-right: 15px;
+  margin-bottom: 15px;
 }
 
 .third-content h2 {
@@ -511,7 +574,7 @@ nav a:hover::before {
 	font-size: 13px;
 	color: #fff;
 	letter-spacing: 0.5px;
-	font-weight: 300;
+	font-weight: 500;
 	line-height: 24px;
 	margin-bottom: 20px;
 }
