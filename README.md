@@ -5,5 +5,5 @@
 1. Dwaipayan Munshi (181MN010)
 2. Jai Khandelwal (181MN016)
 
-## Temporary Deployment of the Website 
-Link : - http://sme-nitk.surge.sh/home.html
+## Website Link 
+Link : - https://sme.nitk.ac.in
