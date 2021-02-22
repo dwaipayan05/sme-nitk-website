@@ -263,6 +263,25 @@ button.main-button:hover {
   color: #777;
   text-align: center;
 }
+/*
+---------------------------------------------
+rainbowish
+---------------------------------------------
+*/
+.header-area .main-nav .nav .rainbow a {
+  animation: blinker 1s linear infinite;
+  font-weight: bolder;
+  color: cyan;
+}
+
+
+
+@keyframes blinker {
+  50% {
+    opacity: 0.5;
+    color: blue;
+  }
+}
 
 /*
 ---------------------------------------------
