@@ -1,4 +1,3 @@
-
 @keyframes seq-preloader {
   50% {
     opacity: 1;
@@ -599,6 +598,28 @@ nav a:hover::before {
 	color: #fff;
 	text-decoration: none;
 	transition: all 0.5s;
+}
+
+.third-content .fb-btn {
+	display: inline-block;
+}
+
+.third-content .fb-btn a {
+	display: inline-block;
+	background-color: transparent;
+	border: 2px solid #fff;
+	padding: 8px 15px;
+	font-size: 13px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: #fff;
+	text-decoration: none;
+	transition: all 0.5s;
+}
+
+.third-content .fb-btn a:hover {
+	color: #232323;
+	background-color: #fff;
 }
 
 .third-content .col-md-6 {
